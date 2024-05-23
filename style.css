@@ -1,0 +1,143 @@
+*{ /*Універсальний селектор (*) виділяє всі елементи HTML на сторінці.*/
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin:0; padding:0;
+    box-sizing: border-box; /*Властивість дозволяє нам включати відступи та рамки в загальну ширину та висоту елемента.box-sizing*/
+    text-decoration:none;
+    transition: all .2s ease;
+    color:#004d13;
+    
+}
+html{
+    overflow-wrap: normal; /* значення за замовчуванням*/
+    overflow-x:auto; /* з'являється гор. смуга прокр за потреби*/
+    scroll-behavior: smooth;
+}
+
+body{
+    display:flex;
+    flex-direction: column;    
+    padding-left:13rem;
+}
+h1{
+    font-family: Georgia, serif;
+    font-size:1.8rem;
+}
+h2{
+    font-family: Georgia, serif;
+    font-size:1.5rem;
+}
+h3{
+    font-family: Georgia, serif;
+    font-size:1.1rem;
+    margin:3rem 2rem 1rem;
+}
+p{
+    font-size:1.1rem;
+    margin:1rem;
+    color:black;
+}
+
+a{
+    text-decoration: underline;
+}
+
+span{
+    font-weight: bold;
+}
+#content{
+    display:block;
+    border: 1px solid #004d13;
+    padding:2rem;
+    color:black;
+
+}
+
+img{
+    width:60%;
+}
+
+/* #button1, #button2, #button3, 
+#button4, #button5, #button6, 
+#button7, #button8 {
+    display: none;
+    
+} */
+
+
+
+.links{
+    text-decoration: underline;
+}
+
+.input_form{
+    padding:2rem;
+    text-align: center;
+    width:34rem;
+    height:10rem;
+    border: 1px solid black;
+
+    h4{
+        color:#004d01;
+        padding:1rem;
+    }
+
+    div{
+        display: flex;
+        padding: 0.5rem;
+
+        form input {
+            margin-left:0.5rem;
+            width:20rem;
+            height:2rem;  
+        }
+    
+        button { 
+            margin-left:0.5rem;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4d2600;
+            color:#fff2e6;
+            width: 9rem; height:2rem;
+            border:none;
+            border-radius: 5px;
+            
+            &:hover{
+                cursor:pointer;
+                transform:scale(1.1) translateX(1px);       
+            }  
+        }
+    
+    }
+}
+
+#wonderfulRectsngles{
+    display:block;
+    .taskTitle{
+        position: absolute;        
+        background-color: aquamarine;
+        width:10rem;
+        height:16rem;
+    }
+    #place{
+        position: absolute;
+        margin-left: 2rem;
+        margin-top:4rem;
+        background-color: #004d01;
+        width:6rem;
+        height:11rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
