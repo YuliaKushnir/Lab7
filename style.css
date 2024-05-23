@@ -13,6 +13,7 @@ html{
     overflow-wrap: normal; /* значення за замовчуванням*/
     overflow-x:auto; /* з'являється гор. смуга прокр за потреби*/
     scroll-behavior: smooth;
+    margin-right: 15rem;
 }
 
 body{
@@ -25,11 +26,9 @@ h1{
     font-size:1.8rem;
 }
 h2{
-    font-family: Georgia, serif;
     font-size:1.5rem;
 }
 h3{
-    font-family: Georgia, serif;
     font-size:1.1rem;
     margin:3rem 2rem 1rem;
 }
@@ -55,7 +54,7 @@ span{
 }
 
 img{
-    width:60%;
+    width:20rem;
 }
 
 /* #button1, #button2, #button3, 
